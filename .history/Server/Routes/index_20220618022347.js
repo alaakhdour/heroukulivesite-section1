@@ -24,6 +24,9 @@ router.get('/contact', function (req, res, next) {
     res.render('index', { title: 'contact us', page: 'contact' });
 });
 
+router.get('/submitButton', function (req, res, next) {
+    res.render('index', { title: 'Home', page: 'home' });
+});
 
 exports.default = router;
 //# sourceMappingURL=index.js.map
